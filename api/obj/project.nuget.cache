@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iY9q2sA/rCxZEGzCJZ0l4A8Pd2E3dvh3q4ie78FiZkvAMtq30bEoSpJIijWQELvJAJUSjsXEernQrYPJNvJuDg==",
+  "dgSpecHash": "us7h+0dxexvUBUOqK1nvwnNE1NF82ZUkSogpNRF9o7agZwBDO/sntYSQmTsvvAIhSRyxldpfup99p2xvAr49ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Downloads\\Fin\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Downloads\\aspproj\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

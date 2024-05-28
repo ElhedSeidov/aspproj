@@ -65,7 +65,7 @@ namespace api.Repository
 
          public async Task<Phone?> DeleteAsync(int id)
         {
-            var phoneModel = await _context.Phones.Include(c=>c.PhoneChar).Include(b=>b.Reviews).ThenInclude(a=>a.Buyer).FirstOrDefaultAsync(x => x.Id == id);
+            var phoneModel = await _context.Phones.Include(c=>c.PhoneChar).Include(b=>b.Reviews).FirstOrDefaultAsync(x => x.Id == id);
 
              if (phoneModel == null)
             {

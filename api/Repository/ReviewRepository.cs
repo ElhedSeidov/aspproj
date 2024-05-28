@@ -41,7 +41,7 @@ namespace api.Repository
 
         public async Task<List<Review>> GetAllAsync()
         {
-            return await _context.Reviews.ToListAsync();
+            return await _context.Reviews.Include(b=>b.Buyer).ToListAsync();
         }
 
         public async Task<Review?> GetByIdAsync(int id)

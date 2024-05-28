@@ -24,7 +24,6 @@ namespace api.Data
         public DbSet<PhoneChar> PhoneChar{get;set;}
 
         public DbSet<Pocket> Pockets{get;set;}
-
          public DbSet<UserLikes> UserLikes {get;set;}
 
          protected override void OnModelCreating(ModelBuilder builder)
@@ -48,6 +47,10 @@ namespace api.Data
                 
          builder.Entity<Phone>()
         .HasMany(c => c.PhoneChar)
+        .WithOne(e => e.Phone).OnDelete(DeleteBehavior.Cascade);
+
+          builder.Entity<Phone>()
+        .HasMany(c => c.Reviews)
         .WithOne(e => e.Phone).OnDelete(DeleteBehavior.Cascade);
 
 

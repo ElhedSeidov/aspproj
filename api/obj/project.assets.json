@@ -4386,11 +4386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Downloads\\Fin\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Downloads\\aspproj\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\HP\\Downloads\\Fin\\api\\api.csproj",
+      "projectPath": "C:\\Users\\HP\\Downloads\\aspproj\\api\\api.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Downloads\\Fin\\api\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Downloads\\aspproj\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

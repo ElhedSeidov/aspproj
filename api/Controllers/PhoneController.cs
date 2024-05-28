@@ -6,6 +6,7 @@ using api.Data;
 using api.DTO.Phone;
 using api.Interfaces;
 using api.Mappers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -95,9 +96,10 @@ namespace api.Controllers
             return Ok(stockModel.ToPhoneDTO());
 
         }
-
+        
         [HttpDelete]
         [Route("{id:int}")]
+        //[Authorize(Roles="Admin")] 
         public async Task <IActionResult> Delete([FromRoute] int id)
         {
             if (!ModelState.IsValid)
